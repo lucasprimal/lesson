@@ -1,0 +1,22 @@
+   public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+// entre com 2 números e verifique qual é maior
+        System.out.println("Entre com o primeiro número");
+        int num1 = scan.nextInt();
+
+        System.out.println("Entre com o segundo número");
+        int num2 = scan.nextInt();
+
+        if (num1 > num2){
+            System.out.println("o num1 é maior");
+        }else {
+            System.out.println("o num2 é maior");
+
+        }
+
+
+        }
+
+
+    }
+
