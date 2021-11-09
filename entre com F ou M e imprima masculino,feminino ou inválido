@@ -1,0 +1,20 @@
+public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+// entre com F ou M e imprima masculino,feminino ou inválido
+        System.out.println("Entre com uma letra (F ou M)");
+        String input = scan.next();
+
+        if (input.equalsIgnoreCase("M")){
+            System.out.println("é masculino");
+        }else if (input.equalsIgnoreCase("F")){
+            System.out.println("é feminino");
+        } else{
+            System.out.println("é inválido");
+        }
+
+
+        }
+
+
+    }
+
