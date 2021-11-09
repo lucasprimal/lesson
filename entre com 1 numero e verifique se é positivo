@@ -1,0 +1,19 @@
+public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+// entre com 1 numero e verifique se é positivo
+        System.out.println("Entre com um número");
+        int num = scan.nextInt();
+
+        if (num >= 0){
+            System.out.println("o num é positivo");
+        }else {
+            System.out.println("o num é negativo");
+
+        }
+
+
+        }
+
+
+    }
+
