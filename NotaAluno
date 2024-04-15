@@ -1,0 +1,21 @@
+public class ExNotaAluno {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite sua nota: ");
+		Integer nota = scanner.nextInt();
+		
+		Boolean notaAprovado = nota >=70;
+//		System.out.println("Sim Ele(a) pode tirar carteira ");
+		if (notaAprovado) {
+			System.out.println("Parabéns passou de ano!");
+		} else {
+			System.out.println("Infelizmente ficou de recuperação!");
+		}
+	
+ 		
+
+	}
+
+}
