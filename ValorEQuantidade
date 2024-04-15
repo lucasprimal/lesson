@@ -1,0 +1,33 @@
+public class ExValorEQuantidade {
+
+	public static void main(String[] args) {
+       Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("Digite o valor do produto: ");
+		Double valorProduto = scanner.nextDouble();
+		
+		System.out.println("Digite a quantidade: ");
+		Integer quantidade = scanner.nextInt();
+		
+		Double subTotal = valorProduto * quantidade;
+		
+		Boolean quantidadeMaiorOuIgualDez = quantidade >= 10;
+		
+		Double desconto1 = 0.0;
+		if (quantidadeMaiorOuIgualDez) {
+			desconto1 = 10.00;
+		}
+		
+		
+		Double desconto2 = subTotal * desconto1 / 100;
+		Double descontoTotal = subTotal - desconto2;
+		 System.out.println("Valor total: " + descontoTotal);
+		
+		
+		scanner.close();
+		
+	
+	
+	}
+
+}
